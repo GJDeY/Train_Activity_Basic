@@ -11,20 +11,6 @@
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-
-    <script src="https://www.gstatic.com/firebasejs/5.4.0/firebase.js"></script>
-    <script>
-        // Initialize Firebase
-        var config = {
-            apiKey: "AIzaSyCstBCnsc6AMUk50YJynEodwTb6IK2Z1ds",
-            authDomain: "train-activity-2f1c7.firebaseapp.com",
-            databaseURL: "https://train-activity-2f1c7.firebaseio.com",
-            projectId: "train-activity-2f1c7",
-            storageBucket: "train-activity-2f1c7.appspot.com",
-            messagingSenderId: "499297585844"
-        };
-        firebase.initializeApp(config);
-    </script>
 </head>
 
 <body>
@@ -32,7 +18,7 @@
 
 
 
-    <div class="container">
+    <div class="info">
         <div class="trainName">
             <div class="col-sm">
                 Train Name:
@@ -54,6 +40,20 @@
 
 
 
+    <script src="https://www.gstatic.com/firebasejs/5.4.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyCstBCnsc6AMUk50YJynEodwTb6IK2Z1ds",
+            authDomain: "train-activity-2f1c7.firebaseapp.com",
+            databaseURL: "https://train-activity-2f1c7.firebaseio.com",
+            projectId: "train-activity-2f1c7",
+            storageBucket: "train-activity-2f1c7.appspot.com",
+            messagingSenderId: "499297585844"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="assets/app.js"></script>
 
 
 </body>
